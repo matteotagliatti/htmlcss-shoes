@@ -29,7 +29,7 @@ img {
 }
 
 img:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) rotate(360deg);
   cursor: pointer;
 }
 
