@@ -1,3 +1,7 @@
+/* Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap");
+
 /* Reset */
 
 * {
@@ -7,6 +11,17 @@
 }
 
 /* Global */
+
+h1 {
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+}
 
 header {
   position: fixed;
@@ -39,10 +54,6 @@ section div {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-section h1 {
-  text-transform: uppercase;
 }
 
 /* Classes */
